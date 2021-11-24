@@ -129,8 +129,8 @@ a {
 .contact {
   display: flex;
   justify-content: space-between;
-  margin: 3rem;
-  padding-bottom: 2rem;
+  padding: 4rem;
+  padding-top: 2rem;
 }
 
 .contact__email,
@@ -191,7 +191,14 @@ a {
     cursor: pointer;
   }
 
+  /* projects */
   .projects__list {
     grid-template-columns: 1fr;
+  }
+
+  /* contact */
+  .contact {
+    padding: 2rem;
+    padding-bottom: 5rem;
   }
 }

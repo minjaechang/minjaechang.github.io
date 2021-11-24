@@ -1,0 +1,123 @@
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  width: 100%;
+  font-family: 'Barlow', sans-serif;
+}
+
+.logo {
+  font-family: 'Megrim', cursive;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0.4rem;
+}
+
+/* navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+}
+
+.navbar__menu {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+
+.navbar__item {
+  padding: 1rem;
+}
+
+/* introduction */
+.introduction {
+  text-align: center;
+  margin-top: 8rem;
+  margin-bottom: 12rem;
+}
+
+.introduction__title {
+  font-size: 3rem;
+  margin-top: 0;
+}
+
+.introduction__msg {
+  font-size: 1.1rem;
+  padding: 0 5rem;
+}
+
+/* projects */
+.projects {
+  margin: auto;
+  text-align: center;
+}
+
+.projects__msg {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.projects__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 4rem;
+  padding: 2rem 5rem 10rem;
+}
+
+.project {
+  transition: transform 300ms ease-in;
+}
+
+.project:hover {
+  transform: scale(1.05);
+}
+
+.project__title {
+  margin-top: 3rem;
+}
+
+.project__link {
+  color: blue;
+}
+
+.project__link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* contact */
+.contact {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem;
+}
+
+.contact__email,
+.contact__location {
+  margin-left: 0.5rem;
+}
+
+.contact__social-media {
+  font-size: 1.7rem;
+  margin-top: 0.8rem;
+}
+
+.fab {
+  padding: 0.3rem;
+  transition: color 200ms ease-in;
+}
+
+.fab:hover {
+  color: grey;
+}
